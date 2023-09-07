@@ -1,0 +1,119 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(249, 250, 252);
+    margin: 0;
+}
+/* /////////////////////////////////////// */
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    background-color: black;
+    list-style: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    margin: 0px;
+}
+
+nav ul li a{
+    float: left;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px 16px;
+    width: calc((100% / 4));
+    text-align: center;
+}
+a:hover{
+    color: black;
+    background-color: beige;
+}
+/* ///////////////////////////////////// */
+
+.bg-img{
+    background-image: url("../images/coffeehouse.jpg");
+    min-height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(50%);
+    position: relative;
+}
+.block-text{
+    position: absolute;
+    left: 47%;
+    top: 38%;
+    color: white;
+    font-size: 70px;
+}
+ /* //////////////////// */
+.bottom-right{
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    color: white;
+}
+.bottom-left{
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    color: white;
+}
+.black-bg{
+    background-color: black;
+}
+
+
+/* ///////////////////////////////////// */
+.container{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#centered_text{
+    text-align: center;
+}
+
+#first_text{
+    font-size: 25px;
+}
+
+#third_text{
+    background-color: rgb(237, 240, 243);
+    padding: 20px;
+    border-left: solid 5px rgb(85, 82, 82);
+    font-style: italic;
+    font-size: 25px;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    filter: grayscale(50%);
+}
+
+
+.menu{
+    display: none;
+}
+
+
+input{
+    width: 100%;
+    border: 2px solid rgb(160, 157, 157);
+    padding: 20px 40px;
+}
+input[type=submit]{
+    background-color: black;
+    color: aliceblue;
+    width: 30%;
+    text-align: center;
+    white-space: nowrap;
+}
